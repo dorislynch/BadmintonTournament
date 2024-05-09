@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		974042082BE8C7ED0097A59F /* RNBadmintonFinalTournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 974042072BE8C7ED0097A59F /* RNBadmintonFinalTournament.m */; };
 		9740420B2BE8C84B0097A59F /* RNNetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 974042092BE8C84B0097A59F /* RNNetReachability.m */; };
+		979A3BC22BEC5F63006AF376 /* RNBadmintonPressureCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 979A3BC12BEC5F63006AF376 /* RNBadmintonPressureCalculator.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNBadmintonTournament.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNBadmintonTournament.m */; };
 		C6E2E0EDA9DE97158B592FF5 /* Pods_RNBadmintonTournament.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9831510A5E84A6421A13B5 /* Pods_RNBadmintonTournament.framework */; };
 /* End PBXBuildFile section */
@@ -29,10 +29,10 @@
 		134814201AA4EA6300B7C361 /* libRNBadmintonTournament.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBadmintonTournament.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF983470761F240AC4DD30C /* Pods-RNBadmintonTournament.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBadmintonTournament.debug.xcconfig"; path = "Target Support Files/Pods-RNBadmintonTournament/Pods-RNBadmintonTournament.debug.xcconfig"; sourceTree = "<group>"; };
 		884CD23851C1DB192E77F065 /* Pods-RNBadmintonTournament.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBadmintonTournament.release.xcconfig"; path = "Target Support Files/Pods-RNBadmintonTournament/Pods-RNBadmintonTournament.release.xcconfig"; sourceTree = "<group>"; };
-		974042062BE8C7ED0097A59F /* RNBadmintonFinalTournament.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBadmintonFinalTournament.h; sourceTree = "<group>"; };
-		974042072BE8C7ED0097A59F /* RNBadmintonFinalTournament.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBadmintonFinalTournament.m; sourceTree = "<group>"; };
 		974042092BE8C84B0097A59F /* RNNetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNetReachability.m; sourceTree = "<group>"; };
 		9740420A2BE8C84B0097A59F /* RNNetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNetReachability.h; sourceTree = "<group>"; };
+		979A3BC02BEC5F63006AF376 /* RNBadmintonPressureCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBadmintonPressureCalculator.h; sourceTree = "<group>"; };
+		979A3BC12BEC5F63006AF376 /* RNBadmintonPressureCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBadmintonPressureCalculator.m; sourceTree = "<group>"; };
 		AD9831510A5E84A6421A13B5 /* Pods_RNBadmintonTournament.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNBadmintonTournament.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNBadmintonTournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBadmintonTournament.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNBadmintonTournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBadmintonTournament.m; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RNBadmintonTournament.h */,
 				B3E7B5891CC2AC0600A0062D /* RNBadmintonTournament.m */,
-				974042062BE8C7ED0097A59F /* RNBadmintonFinalTournament.h */,
-				974042072BE8C7ED0097A59F /* RNBadmintonFinalTournament.m */,
+				979A3BC02BEC5F63006AF376 /* RNBadmintonPressureCalculator.h */,
+				979A3BC12BEC5F63006AF376 /* RNBadmintonPressureCalculator.m */,
 				9740420A2BE8C84B0097A59F /* RNNetReachability.h */,
 				974042092BE8C84B0097A59F /* RNNetReachability.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9740420B2BE8C84B0097A59F /* RNNetReachability.m in Sources */,
-				974042082BE8C7ED0097A59F /* RNBadmintonFinalTournament.m in Sources */,
+				979A3BC22BEC5F63006AF376 /* RNBadmintonPressureCalculator.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNBadmintonTournament.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
